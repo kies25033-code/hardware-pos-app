@@ -10,7 +10,7 @@ gc = gspread.service_account_from_dict(creds_dict)
 
 # *** ဒီနေရာမှာ အစ်ကို့ Google Sheet ဖိုင်နာမည်ကို အမှန်အတိုင်း ပြင်ရေးပါ ***
 # ဥပမာ - "Hardware_POS_Data"
-spreadsheet = gc.open("Hardware_POS_Data") 
+spreadsheet = gc.open("hardware_pos_app") 
 
 sh_master = spreadsheet.worksheet("Master_Products")
 sh_sales = spreadsheet.worksheet("Sales_Record")
